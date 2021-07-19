@@ -1,3 +1,3 @@
-FROM alpine:latest
+FROM alpine:3.14
 RUN apk add sl 
 CMD sl 
