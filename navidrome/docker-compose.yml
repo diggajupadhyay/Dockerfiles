@@ -11,5 +11,5 @@ services:
       ND_SCANSCHEDULE: 1m
       ND_LOGLEVEL: info  
     volumes:
-      - "/home/dig/navidrome/data:/data"
-      - "/home/dig/Music/:/music:ro"
+      - "$USER/navidrome/data:/data"
+      - "$USER/Music/:/music:ro"
