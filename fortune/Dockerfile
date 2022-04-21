@@ -1,3 +1,3 @@
 FROM alpine:latest
-RUN apk add fortune
-CMD fortune
+RUN apk --no-cache add fortune
+CMD [ "fortune" ]
