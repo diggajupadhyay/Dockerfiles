@@ -1,3 +1,3 @@
-FROM alpine:3.14
-RUN apk add lynx
-CMD lynx
+FROM alpine
+RUN apk --no-cache add lynx
+CMD [ "lynx" ]
