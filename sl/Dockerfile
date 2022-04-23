@@ -1,3 +1,3 @@
-FROM alpine:3.14
-RUN apk add sl 
-CMD sl 
+FROM alpine
+RUN apk --no-cache add sl
+CMD [ "sl" ]
