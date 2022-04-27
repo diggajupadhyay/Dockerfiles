@@ -3,5 +3,5 @@
 
 #### RUN
 ```bash
-docker run --rm -it --pid host diggajupadhyay/htop:0.0.2
+docker run --rm -it --pid host diggajupadhyay/htop
 ```
